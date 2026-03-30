@@ -6,3 +6,4 @@ dist/
 *.d.ts.map
 !src/**
 .marmar/
+.DS_Store
