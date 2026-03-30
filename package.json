@@ -1,0 +1,26 @@
+{
+  "name": "marmar-cli",
+  "version": "0.1.0",
+  "description": "MARMAR CLI - Streamline integration with the MARMAR Clinical Decision Support API/SDK",
+  "main": "dist/index.js",
+  "bin": {
+    "marmar": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "marmar",
+    "cli",
+    "health-tech",
+    "emr",
+    "cds"
+  ],
+  "author": "Habeeb Dindi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.0"
+  }
+}

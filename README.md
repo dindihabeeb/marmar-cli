@@ -17,7 +17,7 @@ npm link
 # 1. Get your API key from https://portal.marmar.life → Settings → API Keys
 marmar login --api-key mk_your_key_here
 
-# 2. Scan your project (use the sample emr project in this repo to test)
+# 2. Scan your project (use the sample emr project in this repo to test), --dir is optional
 marmar scan --dir ./your-emr-project
 
 # 3. Integrate (with review)
